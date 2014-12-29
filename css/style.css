@@ -1,0 +1,164 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #ECECEC;
+  margin-top: 0px;
+}
+
+.navigation {
+  width: 420px;
+  height: 30px;
+  border: 1px solid #D7D7D7;
+  border-radius: 4px;
+  background-color: #F7F7F7;
+  margin-bottom: 20px;
+}
+
+.navigation ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation li {
+  display: inline-block;
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  height: 30px;
+  border-radius: 4px;
+  margin: 0px;
+}
+
+.navigation li:hover {
+  background-color: #E7E7E7;
+}
+
+.navigation li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #717171;
+  padding: 6px 0px;
+  width: 100%;
+  height: 18px;
+}
+
+.process-panel .panel {
+  min-height: 700px;
+  height: 98%;
+  border: 1px solid #7c7c7c;
+}
+
+.process-panel div.panel-item {
+  background-color: #EBF4D2;
+  border-bottom: 1px solid #DADADA;
+  border-radius: 1px;
+  padding: 3px 0px;
+  border-top: 1px solid #FFFBCE;
+}
+
+.process-panel .process-panel-content {
+  padding: 0px 0px 6px 20px;
+}
+
+.process-panel .panel-item label {
+  display: inline-block;
+  width: 130px;
+  text-transform: uppercase;
+  color: #7C7C7C;
+}
+
+.process-panel .process-list {
+  list-style: none;
+  margin: 0px;
+  padding: 1px 1px 0px 1px;
+  background-color: #DADADA;
+  border-radius: 2px;
+}
+
+.process-panel .panel-item-details {
+  border: 1px solid #BBB;
+  border-radius: 3px;
+  width: 300px;
+  background-color: #FCF9EF;
+  font-size: 0.8em;
+  margin: 5px 0px 10px 0px;
+  color: #303030;
+}
+
+.process-panel .panel-item-details div {
+  border-bottom: 1px solid #BBB;
+  padding: 5px;
+}
+
+.process-panel div.panel-detail-actions {
+  border-bottom: none;
+}
+
+.process-panel .arrow {
+  padding: 0px 5px;
+  background-image: image-url("arrow.png");
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-size: 6px;
+  background-repeat: no-repeat;
+  background-position-y: 3px;
+  background-position-x: 8px;
+}
+
+.process-panel .closed-process {
+  font-weight: bold;
+  cursor: pointer;
+  color: #616161;
+  font-size: 0.9em;
+}
+
+.process-panel .panel-item.open a {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.process-panel textarea {
+  margin: 0px;
+  border-radius: 4px;
+  resize: none;
+}
+
+.process-panel input[type=submit] {
+  display: block;
+}
+
+.process-panel form {
+  margin: 0px;
+}
+.process-panel form input {
+  margin: 0px;
+}
+
+.process-panel h1, .process-panel h2, .process-panel h3, .process-panel h4, .process-panel h5, .process-panel h6 {
+  margin: 0px;
+}
+
+.process-panel ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.process-panel li.comment, .process-panel div.commentsForm {
+  padding: 10px;
+  background-color: #C6E0B7;
+  width: 420px;
+  border-radius: 4px;
+}
+.process-panel li.comment {
+  margin: 5px 0px;
+}
+.process-panel li.comment span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.process-panel h6 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
