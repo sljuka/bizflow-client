@@ -29,9 +29,7 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
-  position: relative; 
-  width: 80%; 
-  max-width: 1024px; 
+  position: relative;
   margin: 0 auto; 
   padding: 0; }
 .container .column,        
@@ -50,7 +48,7 @@
   
   .container .column,
   .container .columns {
-    margin-left: 4%; }
+   }
   
   .container .one.column,
   .container .one.columns          { width: 4.66666666667%; }

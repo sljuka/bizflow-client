@@ -11,16 +11,17 @@ var App = React.createClass({
 
   render: function() {
     return (
-      <header>
-        <ul>
-          <li><Link to="app">Dashboard</Link></li>
-          <li><Link to="inbox">Inbox</Link></li>
-          <li><Link to="calendar">Calendar</Link></li>
-        </ul>
-        Logged in as Jane
-      </header>
+      <div>
+        <header className="container navigation">
+          <ul>
+            <li><Link to="app">Processes</Link></li>
+            <li><Link to="inbox">Inbox</Link></li>
+            <li><Link to="history">History</Link></li>
+          </ul>
+          Logged in as Jane
+        </header>
 
-      <RouteHandler/>
+        <RouteHandler/>
       </div>
     );
   }

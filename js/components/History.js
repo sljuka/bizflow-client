@@ -1,15 +1,15 @@
 React = require('react')
 
-var Dashboard = React.createClass({
+var History = React.createClass({
 
   render: function() {
     return(
       <div className="bla">
-        <span>DB</span>
+        <span>HistoRy</span>
       </div>
     );
   }
 
 });
 
-module.exports = Dashboard
+module.exports = History
