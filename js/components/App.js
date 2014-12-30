@@ -18,7 +18,6 @@ var App = React.createClass({
             <li><Link to="inbox">Inbox</Link></li>
             <li><Link to="history">History</Link></li>
           </ul>
-          Logged in as Jane
         </header>
 
         <RouteHandler/>
