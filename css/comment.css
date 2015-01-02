@@ -1,0 +1,31 @@
+.commentsSection li.comment, div.commentsForm {
+  padding: 10px;
+  background-color: #E2E2E2;
+  width: 420px;
+  border-radius: 4px;
+}
+
+.commentsSection li.comment {
+  margin: 5px 0px;
+}
+
+.commentsSection li.comment span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.commentsSection form textarea {
+  resize: none;
+}
+
+.commentsSection form {
+  margin-bottom: 0px;
+}
+
+.commentsSection ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}

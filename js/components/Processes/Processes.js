@@ -38,7 +38,7 @@ var Processes = React.createClass({
 
     return(
       <div className="processes_component">
-        <ul>
+        <ul className="processes_list">
           <li key="0"><a href="#" className="new"><span>+</span></a></li>
           {processList}
         </ul>

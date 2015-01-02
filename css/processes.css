@@ -1,4 +1,4 @@
-.processes_component ul {
+.processes_component ul.processes_list {
   list-style: none;
   width: 15%;
   margin: 0px;
@@ -16,6 +16,7 @@
   color: #717171;
   text-decoration: none;
   padding: 4px;
+  box-shadow: 1px 1px 12px #E5E5E5 inset;
 }
 
 .processes_component ul a.new {
@@ -28,7 +29,7 @@
 
 .processes_component label {
   text-transform: uppercase;
-  color: #BDBDBD;
+  color: #909090;
   width: 100px;
   display: inline-block;
   font-size: 0.7em;
@@ -46,8 +47,35 @@
   display: inline-block;
   position: absolute;
   background-color: #F7F7F7;
-  width: 84.9%;
-  height: 200px;
+  width: 82.9%;
+  height: auto;
   border-bottom: 1px solid #ddd;
   border-right: 1px solid #ddd;
+  padding: 1%;
+  color: #717171;
+}
+
+.processes_component .panel-item-details {
+  border: 1px solid #BBB;
+  border-radius: 3px;
+  width: 300px;
+  background-color: #FCF9EF;
+  font-size: 0.8em;
+  margin: 5px 0px 10px 0px;
+  color: #303030;
+}
+
+.processes_component .panel-item-details div {
+  border-bottom: 1px solid #BBB;
+  padding: 5px;
+}
+
+.processes_component .panel-item-details label {
+  font-size: 0.9em;
+  width: 150px;
+  color: #909090;
+}
+
+.processes_component div.panel-detail-actions {
+  border-bottom: none;
 }

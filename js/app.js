@@ -9,8 +9,8 @@ var Link = Router.Link;
 var RouteHandler = Router.RouteHandler;
 
 
-var Processes = require('./components/Processes')
-var Process = require('./components/Process')
+var Processes = require('./components/Processes/Processes')
+var Process = require('./components/Processes/Process')
 var Inbox = require('./components/Inbox')
 var History = require('./components/History')
 
