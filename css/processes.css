@@ -1,10 +1,11 @@
 .processes_component ul {
   list-style: none;
-  width: 250px;
+  width: 15%;
   margin: 0px;
   padding: 0px;
   height: 100%;
   border-right: 1px solid #ddd;
+  display: inline-block;
 }
 
 .processes_component ul a {
@@ -41,3 +42,12 @@
   font-size: 1.2em
 }
 
+.processContent {
+  display: inline-block;
+  position: absolute;
+  background-color: #F7F7F7;
+  width: 84.9%;
+  height: 200px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}

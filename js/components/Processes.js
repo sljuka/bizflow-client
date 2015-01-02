@@ -1,6 +1,9 @@
 React = require('react')
-Process = require('./Process')
+ProcessLink = require('./ProcessLink')
 $ = require('jquery')
+
+var Router = require('react-router');
+var RouteHandler = Router.RouteHandler;
 
 var Processes = React.createClass({
 
@@ -29,16 +32,17 @@ var Processes = React.createClass({
 
     var processList = this.state.data.map(function(process) {
       return (
-        <Process data={process} />
+        <ProcessLink data={process} key={process.id} />
       );
     });
 
     return(
       <div className="processes_component">
         <ul>
-          <li><a href="#" className="new"><span>+</span></a></li>
+          <li key="0"><a href="#" className="new"><span>+</span></a></li>
           {processList}
         </ul>
+        <RouteHandler/>
       </div>
     );
   }

@@ -8,7 +8,9 @@ var DefaultRoute = Router.DefaultRoute;
 var Link = Router.Link;
 var RouteHandler = Router.RouteHandler;
 
+
 var Processes = require('./components/Processes')
+var Process = require('./components/Process')
 var Inbox = require('./components/Inbox')
 var History = require('./components/History')
 
@@ -18,6 +20,9 @@ var routes = (
   <Route name="app" path="/" handler={App}>
     <Route name="inbox" handler={Inbox}/>
     <Route name="history" handler={History}/>
+    <Route name="processes" handler={Processes}>
+      <Route name="process" path="/processes/:processId" handler={Process}></Route>
+    </Route>
     <DefaultRoute handler={Processes}/>
   </Route>
 );

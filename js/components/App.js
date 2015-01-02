@@ -14,7 +14,7 @@ var App = React.createClass({
       <div>
         <header className="container navigation">
           <ul>
-            <li><Link to="app">Processes</Link></li>
+            <li><Link to="processes">Processes</Link></li>
             <li><Link to="inbox">Inbox</Link></li>
             <li><Link to="history">History</Link></li>
           </ul>
